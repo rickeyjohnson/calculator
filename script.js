@@ -33,5 +33,3 @@ function operate(operator, num1, num2) {
 
     return result
 }
-
-console.log(operate('+', 3, 4))

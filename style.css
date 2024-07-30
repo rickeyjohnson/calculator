@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 3rem;
+    font-family: Helvetica, cursive;
+    border: none;
+    background-color: rgb(74, 74, 74);
+}
+
+.operator {
+    background-color: orange;
+}
+
+#label {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#row5 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#main {
+    background-color: black;
+    padding: 0.6rem
+}
